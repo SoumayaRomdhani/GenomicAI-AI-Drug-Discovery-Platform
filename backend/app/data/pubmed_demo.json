@@ -1,0 +1,58 @@
+[
+  {
+    "doc_id": "demo-001",
+    "title": "Transformer models for molecular representation learning in drug discovery",
+    "source": "Demo Biomedical Corpus",
+    "year": 2024,
+    "abstract": "Transformer-based encoders are increasingly used to learn molecular representations from SMILES strings and molecular graphs. They improve virtual screening, property prediction, and lead prioritization when combined with cheminformatics descriptors and domain-specific pretraining."
+  },
+  {
+    "doc_id": "demo-002",
+    "title": "Protein language models and downstream prediction tasks",
+    "source": "Demo Biomedical Corpus",
+    "year": 2024,
+    "abstract": "Protein language models learn contextual representations from amino-acid sequences. These embeddings support function prediction, variant effect estimation, protein engineering, and interaction modeling, especially when paired with structural or assay data."
+  },
+  {
+    "doc_id": "demo-003",
+    "title": "Retrieval-augmented generation for biomedical question answering",
+    "source": "Demo Biomedical Corpus",
+    "year": 2025,
+    "abstract": "Retrieval-augmented generation helps biomedical systems ground generated text in retrieved evidence. In drug discovery workflows, this reduces hallucination risk and improves traceability when analysts need literature-backed summaries."
+  },
+  {
+    "doc_id": "demo-004",
+    "title": "Graph neural networks for ADMET and toxicity prediction",
+    "source": "Demo Biomedical Corpus",
+    "year": 2023,
+    "abstract": "Graph neural networks model atoms and bonds directly, making them attractive for ADMET tasks such as solubility, hERG liability, and blood-brain barrier prediction. Hybrid models often combine learned graph embeddings with handcrafted descriptors."
+  },
+  {
+    "doc_id": "demo-005",
+    "title": "Benchmarking molecular machine learning with public datasets",
+    "source": "Demo Biomedical Corpus",
+    "year": 2023,
+    "abstract": "Public datasets such as ChEMBL, MoleculeNet, and BindingDB remain important for prototyping molecular ML systems. Data curation, split strategy, and label quality strongly influence reported performance and real-world transfer."
+  },
+  {
+    "doc_id": "demo-006",
+    "title": "Drug-target interaction modeling with multimodal encoders",
+    "source": "Demo Biomedical Corpus",
+    "year": 2025,
+    "abstract": "Drug-target interaction prediction benefits from combining small-molecule features, protein sequence embeddings, and cross-attention fusion. Interpretability remains important because medicinal chemists must understand why a candidate is prioritized."
+  },
+  {
+    "doc_id": "demo-007",
+    "title": "Challenges in blood-brain barrier permeability prediction",
+    "source": "Demo Biomedical Corpus",
+    "year": 2022,
+    "abstract": "BBB prediction remains difficult because permeability depends on lipophilicity, molecular size, polarity, transporter effects, and assay setup. Lightweight rule-based baselines are still useful for triage before more expensive modeling."
+  },
+  {
+    "doc_id": "demo-008",
+    "title": "Biomedical literature mining for target discovery",
+    "source": "Demo Biomedical Corpus",
+    "year": 2025,
+    "abstract": "Text mining over biomedical abstracts can surface gene-disease links, pathway evidence, and emerging therapeutic mechanisms. Retrieval systems are most useful when they preserve source citations and show the supporting snippets."
+  }
+]

@@ -1,0 +1,29 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: genomicai-backend
+    ports:
+      - "8000:8000"
+    environment:
+      BACKEND_HOST: 0.0.0.0
+      BACKEND_PORT: 8000
+      RAG_PERSIST_DIR: /app/chroma
+      PUBMED_DEMO_PATH: /app/app/data/pubmed_demo.json
+      USE_SENTENCE_TRANSFORMERS: false
+      USE_CHROMA: false
+    volumes:
+      - ./backend/chroma:/app/chroma
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_API_BASE: http://localhost:8000
+    container_name: genomicai-frontend
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_BASE: http://localhost:8000
